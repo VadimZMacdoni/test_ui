@@ -11,10 +11,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class PobedaTest extends BaseTest {
     String url = GOOGLE_URL;
-    private final PobedaPage pobedaPage = new PobedaPage();
+    private final PobedaPage pobedaPage = new PobedaPage(driver);
 
     @Test
-    public void authPikabuTest(){
+    public void pobedaMainTest(){
         driver.get(url);
 
         pobedaPage.clickSearchString();
