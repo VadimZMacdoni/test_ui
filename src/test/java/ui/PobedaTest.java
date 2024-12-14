@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class PobedaTest extends BaseTest {
     String url = GOOGLE_URL;
-    private final PobedaPage pobedaPage = new PobedaPage(driver);
+    private final PobedaPage pobedaPage = new PobedaPage();
 
     @Test
     public void pobedaMainTest(){
